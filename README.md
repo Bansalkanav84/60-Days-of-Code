@@ -15,11 +15,12 @@ Every day, I solve 2–3 coding problems on [LeetCode](https://leetcode.com), co
 ## 🛠️ Daily Structure
 
 Each day has its own folder:
-Day n/
-├── Problem1.java
-├── Problem2.java
-├── Problem3.java
-└── README.md
+
+DayXX/  
+├── Problem1.java  
+├── Problem2.java  
+├── Problem3.java  
+└── README.md  
 
 Each `README.md` file inside a `DayXX` folder contains:
 - ✅ Problem titles
