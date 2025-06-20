@@ -15,7 +15,7 @@ def update_readme(day_folder):
     readme_path = "README.md"
     day_num = re.findall(r"\d+", day_folder)[0]
     problem_count = count_java_files(day_folder)
-    new_line = f"| ✅ Day {day_num} |  {problem_count} | Completed |\n"
+    new_line = f"| ✅ Day {day_num} |  {problem_count} problems | Completed |\n"
 
     if not os.path.exists(readme_path):
         print("❌ README.md not found.")
@@ -30,16 +30,17 @@ def update_readme(day_folder):
             print(f"🟡 README already contains Day {day_num}, skipping.")
             return
 
-    # Find where to insert (after the table header)
-    for i, line in enumerate(lines):
-        if re.match(r"\|[- ]+\|[- ]+\|[- ]+\|", line):
-            insert_index = i + 1
-            break
-    else:
-        print("❌ Could not locate progress table in README.md")
-        return
+     # Find last row of the progress table (just before next heading or empty line)
+    insert_index = None
+    for i in range(len(lines)):
+        if lines[i].startswith("|") and "Day" in lines[i]:
+            insert_index = i
 
-    lines.insert(insert_index, new_line)
+    if insert_index is not None:
+        lines.insert(insert_index + 1, new_line)
+    else:
+        print("❌ Could not find where to insert the new Day entry.")
+        return
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.writelines(lines)

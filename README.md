@@ -33,10 +33,10 @@ Each `README.md` file inside a `DayXX` folder contains:
 
 | Day | Problems Solved | Status |
 |-----|------------------|--------|
-| ✅ Day 02 |  3 | Completed |
 | ✅ Day 01 | 3 problems | Completed |
 | ⏳ Day 02 | – | Coming Soon |
 | ⏳ Day 03 | – | Coming Soon |
+| ✅ Day 02 |  3 problems | Completed |
 | ... | ... | ... |
 
 > 📈 Goal: Stay consistent, improve problem-solving speed, and deepen DSA concepts.
