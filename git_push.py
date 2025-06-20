@@ -15,7 +15,7 @@ def update_readme(day_folder):
     readme_path = "README.md"
     day_num = re.findall(r"\d+", day_folder)[0]
     problem_count = count_java_files(day_folder)
-    new_line = f"| Day {day_num} | ✅ Completed | {problem_count} |\n"
+    new_line = f"| ✅ Day {day_num} | {problem_count} | Completed |\n"
 
     if not os.path.exists(readme_path):
         print("❌ README.md not found.")
@@ -24,22 +24,22 @@ def update_readme(day_folder):
     with open(readme_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    # Check if the line already exists
-    for line in lines:
-        if f"| Day {day_num} " in line:
-            print(f"🟡 README already contains Day {day_num}, skipping.")
-            return
-
-    # Find where to insert (after the table header)
-    for i, line in enumerate(lines):
-        if re.match(r"\|[- ]+\|[- ]+\|[- ]+\|", line):
-            insert_index = i + 1
-            break
-    else:
-        print("❌ Could not locate progress table in README.md")
+    # Check if DayXX already exists
+    if any(f"| Day {day_num} " in line for line in lines):
+        print(f"🟡 README already contains Day {day_num}, skipping.")
         return
 
-    lines.insert(insert_index, new_line)
+    # Find the progress table and insert after the header
+    table_header = "| Day | Status | Problems Solved |"
+    table_separator = "|-----|--------|-----------------|"
+    try:
+        header_index = lines.index(table_header + "\n")
+        separator_index = lines.index(table_separator + "\n")
+        insert_index = separator_index + 1
+        lines.insert(insert_index, new_line)
+    except ValueError:
+        print("❌ Table format not found in README.md. Make sure it includes the exact header & separator.")
+        return
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.writelines(lines)

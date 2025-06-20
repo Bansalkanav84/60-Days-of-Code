@@ -33,7 +33,6 @@ Each `README.md` file inside a `DayXX` folder contains:
 
 | Day | Problems Solved | Status |
 |-----|------------------|--------|
-| Day 02 | ✅ Completed | 3 |
 | ✅ Day 01 | 3 problems | Completed |
 | ⏳ Day 02 | – | Coming Soon |
 | ⏳ Day 03 | – | Coming Soon |
