@@ -35,6 +35,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 |-----|------------------|--------|
 | ✅ Day 01 | 3 problems | Completed |
 | ✅ Day 02 |  3 problems | Completed |
+| ✅ Day 02 |  3 problems | Completed |
 | ... | ... | ... |
 
 > 📈 Goal: Stay consistent, improve problem-solving speed, and deepen DSA concepts.
@@ -71,7 +72,7 @@ This repo is managed using custom Python scripts to:
 
 Scripts:
 - `create_day.py` — generates folder & README for the day
-- `git_push.py` — stages, commits, and pushes your code
+- `git_push.py` — stages, commits, and pushes the code
 
 ---
 
