@@ -24,11 +24,12 @@ def update_readme(day_folder):
     with open(readme_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    # Check if the line already exists
+    # Check if the day already exists
     for line in lines:
-        if f"| Day {day_num} " in line:
-            print(f"🟡 README already contains Day {day_num}, skipping.")
-            return
+     if re.search(rf"\|\s*✅?\s*Day\s+{day_num}\b", line):
+        print(f"🟡 README already contains Day {day_num}, skipping.")
+        return
+
 
      # Find last row of the progress table (just before next heading or empty line)
     insert_index = None
