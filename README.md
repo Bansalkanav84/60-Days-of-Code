@@ -75,7 +75,7 @@ This repo is managed using custom Python scripts to:
 - ⬆️ Push changes to GitHub with clean commits
 
 Scripts:
-- `create_day.py` — generates folder & README for the day
+- `create_day_adv.py` — generates folder & README for the day
 - `git_push.py` — stages, commits, and pushes the code
 
 ---
