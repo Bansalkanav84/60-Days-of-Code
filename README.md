@@ -1,7 +1,7 @@
 # 🧠 60 Days of Code Challenge
 
 Welcome to my **60 Days of Code** journey! 🚀  
-Every day, I solve 2–3 coding problems on [LeetCode](https://leetcode.com), covering a wide range of Data Structures and Algorithms (DSA) topics. This repo documents my progress, solutions, and learnings along the way.
+Every day, I solve few coding problems on [LeetCode](https://leetcode.com), covering a wide range of Data Structures and Algorithms (DSA) topics. This repo documents my progress, solutions, and learnings along the way.
 
 ---
 
