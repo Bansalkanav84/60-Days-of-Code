@@ -66,6 +66,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 - Trees & Graphs
 - Linked Lists
 - Stacks & Queues
+- Heaps & Priority Queues
 - And more to come...
 
 ---
