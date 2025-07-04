@@ -60,7 +60,6 @@ Each `README.md` file inside a `DayXX` folder contains:
 - HashMaps & Sets
 - Two Pointers
 - Sorting & Searching
-- Binary Search
 - Recursion
 - Dynamic Programming
 - Trees & Graphs
