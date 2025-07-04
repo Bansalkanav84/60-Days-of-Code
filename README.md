@@ -61,6 +61,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 - Two Pointers
 - Sorting & Searching
 - Recursion
+- Backtracking
 - Dynamic Programming
 - Trees & Graphs
 - Linked Lists
