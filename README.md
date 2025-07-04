@@ -62,7 +62,6 @@ Each `README.md` file inside a `DayXX` folder contains:
 - Sorting & Searching
 - Binary Search
 - Recursion
-- Math & Number Theory
 - Dynamic Programming
 - Trees & Graphs
 - And more to come...
