@@ -64,6 +64,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 - Recursion
 - Dynamic Programming
 - Trees & Graphs
+- Linked Lists
 - And more to come...
 
 ---
