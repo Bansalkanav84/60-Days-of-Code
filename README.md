@@ -65,6 +65,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 - Dynamic Programming
 - Trees & Graphs
 - Linked Lists
+- Stacks & Queues
 - And more to come...
 
 ---
