@@ -58,7 +58,6 @@ Each `README.md` file inside a `DayXX` folder contains:
 - Arrays
 - Strings
 - HashMaps & Sets
-- Two Pointers
 - Sorting & Searching
 - Recursion
 - Dynamic Programming
