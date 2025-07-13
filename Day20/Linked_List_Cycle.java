@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class Solution {
+public class Linked_List_Cycle {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head, fast = head;
 
