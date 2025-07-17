@@ -55,6 +55,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 | ✅ Day 20 |  4 problems | Completed |
 | ✅ Day 21 |  3 problems | Completed |
 | ✅ Day 22 |  3 problems | Completed |
+| ✅ Day 23 |  5 problems | Completed |
 | ✅ Day 24 |  4 problems | Completed |
 | ... | ... | ... |
 
