@@ -7,7 +7,7 @@ Every day, I solve few coding problems on [LeetCode](https://leetcode.com), cove
 
 ## 📅 Challenge Duration
 
-**Start Date:** 20/06/2025  
+**Start Date:** 24/06/2025  
 **End Date:** ...
 
 ---
@@ -64,6 +64,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 | ✅ Day 29 |  4 problems | Completed |
 | ✅ Day 30 |  6 problems | Completed |
 | ... | ... | ... |
+
 
 > 🏆 **Total Problems Solved:** 120
 
