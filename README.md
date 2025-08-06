@@ -69,6 +69,7 @@ Each `README.md` file inside a `DayXX` folder contains:
 | ✅ Day 34 |  6 problems | Completed |
 | ✅ Day 35 |  5 problems | Completed |
 | ✅ Day 36 |  5 problems | Completed |
+| ✅ Day 37 |  3 problems | Completed |
 | ... | ... | ... |
 
 
@@ -78,7 +79,8 @@ Each `README.md` file inside a `DayXX` folder contains:
 
 
 
-> 🏆 **Total Problems Solved:** 150
+
+> 🏆 **Total Problems Solved:** 153
 
 > 📈 Goal: Stay consistent, improve problem-solving speed, and deepen DSA concepts.
 
